@@ -1,6 +1,4 @@
 //your JS code here. If required.
-const output = document.getElementById("output");
-const btn = document.getElementById("download-images-button");
 let images = [
 	'https://picsum.photos/id/237/200/300',
 	'https://picsum.photos/id/238/200/300',
@@ -27,3 +25,6 @@ document.getElementById('download-images-button').addEventListener('click',(even
 		console.log(error);
 	});
 });
+
+//const output = document.getElementById("output");
+//const btn = document.getElementById("download-images-button");
